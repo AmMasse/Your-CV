@@ -1,0 +1,111 @@
+/* Basic container styling */
+.cv-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+.cv-form {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.cv-form label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.cv-form input, .cv-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* CV Header styling */
+.cv-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cv-header h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.cv-header .profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px auto;
+}
+
+.cv-header p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Section styling */
+.cv-section {
+    margin-bottom: 20px;
+}
+
+.cv-section h3 {
+    font-size: 20px;
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.cv-section p, .cv-section ul {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+/* Button styling */
+#downloadBtn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#downloadBtn:hover {
+    background-color: #218838;
+}
